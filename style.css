@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+img{
+    border: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/*
+html {
+  scroll-behavior: smooth;
+}
+*/
+
+/*owl carousel css start*/
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+	background: #fcac45;
+    opacity: .5;
+}
+.owl-theme .owl-dots .owl-dot span {
+	background: #fcac45;
+    border-radius:0;
+}
+/*owl carousel css end*/
+
+
+header{
+    /*min-height: 770px;*/
+    background-color: #111111;
+}
+#header .nav-link{
+    color: #fff;
+}
+#header .nav-link:hover{
+    color:#fcac45;
+}
+#header h2{
+    margin-top: 200px;
+    font-size: 44px;
+    font-weight: 300;
+    color: #999999;
+}
+#header h2 span{
+    color: #fcac45;
+}
+#header p{
+    font-size: 26px;
+    color: #ffffff;
+}
+
+.banner span i{
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: #c3c3c3;
+    border: 1px solid #c3c3c3;
+    border-radius: 50%;
+    margin-top: 270px;
+    margin-bottom: 70px;
+}
+/*about_us section css start*/
+.about_us img{
+    max-width: 64%;
+}
+.about_us .up_border{
+    margin: 0 0;
+}
+.about_us h3{
+    font-weight: 300;
+}
+.about_us h3 span{
+    font-weight: 600;
+}
+/*about_us section css end*/
+
+/*our_team section css start*/
+.our_team{
+    background-color: #070707;
+}
+.full_teams{
+    padding-bottom: 50px;
+}
+.team_single img{
+    border-radius: 50%;
+}
+.team_single h5{
+    margin-top: 23px;
+    font-size: 26px;
+}
+.team_single h6{
+    font-size: 21px;
+}
+.team_single p{
+    font-size: 15px;
+}
+.section_title{
+    font-size: 45px;
+    font-weight: 300;
+    padding-top: 100px;
+    padding-bottom: 31px;
+}
+.section_title span{
+    font-weight: 400;
+}
+.up_border{
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: #fcac45;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.bt_border{
+    display: block;
+    width: 70px;
+    height: 4px;
+    background-color: #b37b33;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+/*our_team section css end*/
+
+/*our_service section css start*/
+.our_service_top p {
+	font-size: 21px;
+	color: #6c6c6c;
+	max-width: 96%;
+}
+.single_service {
+    margin-top: 100px;
+}
+.single_service span i {
+	font-size: 80px;
+	width: 180px;
+	height: 180px;
+	border: 6px solid #fcac45;
+	border-radius: 50%;
+	margin: auto auto;
+	line-height: 180px;
+}
+.single_service h2{
+    font-size: 33px;
+    font-weight: 600;
+    color: #222222;
+    margin: 20px 0;
+    
+}
+.single_service p{
+    font-size: 15px;
+    color: #222222;
+}
+
+/*our_service section css end*/
+/*our_clients section css start*/
+.our_clients{
+    background-color: #070707;
+}
+
+/*our_clients section css end*/
+/*testimonial section css start*/
+.testimonial{
+    background-color: #070707;
+}
+/*testimonial section css end*/
+/*contact section css start*/
+.contact .contact_form span{
+    color: red;
+}
+.contact .contact_form .submit_btn{
+    background-color: #fcac45;
+}
+.contact_form .form-control:focus {
+	color: #000;
+	background-color: #fff;
+	border-color: #fcac45;
+	outline: 0;
+	box-shadow: 0 0 0 .2rem rgba(252, 172, 69,.25);
+}
+/*contact section css end*/
+
+.overlay {
+    display: none;
+	position: absolute;
+	background: #222222;
+	left: 23px;
+	top: 8px;
+	width: 90%;
+	height: 94%;
+    transition: 0.5s all linear;
+}
+.overlay_text {
+	transform: translateY(50%);
+}
+.mix:hover .overlay{
+    display: block;
+}
+/*footer section css start*/
+footer{
+    background-color: #222222;
+}
+.social_icon i{
+    padding: 5px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transition: 0.3s all linear;
+}
+.social_icon i:hover{
+    border: 2px solid #fcac45;
+}
+/*footer section css end*/

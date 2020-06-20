@@ -1,0 +1,91 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 320px) {
+    
+}
+
+@media only screen and (max-width: 767px) { 
+ #header h2 {
+	margin-top: 110px;
+	font-size: 30px;
+}
+#header p {
+	font-size: 13px;
+	color: #ffffff;
+}
+.banner span i {
+	margin-top: 30px;
+}
+    #aboutus {
+	text-align: center;
+}
+    .about_us h3 {
+	font-size: 18px;
+}
+    #aboutus h5 {
+	margin-top: 18px;     
+}
+    .about_us .up_border {
+	margin: 0 auto;
+}
+    .section_title {
+	font-size: 24px;
+}
+    .our_service_top p {
+	font-size: 15px;
+}
+    .bt_border {
+	margin-bottom: 33px;
+}
+    .service_full{
+        padding: 0;
+    }
+    .single_service span i {
+	font-size: 62px;
+	width: 140px;
+	height: 140px;
+	line-height: 140px;
+}
+    .single_service h2 {
+	font-size: 21px;
+}
+    .single_service p {
+	font-size: 12px;
+}
+    .single_service {
+	margin-top: 20px;
+}
+    .work_top_left,.work_top_right{
+        text-align: center!important;
+    }
+    .overlay {
+	width: 82%;
+	height: 94%;
+}
+    footer p {
+	text-align: center;
+}
+    .social_icon {
+	text-align: center;
+}
+    .submit_btn_align{
+        text-align: center!important;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+.overlay {
+	width: 48%;
+	height: 94%;
+	left: 26%;
+}
+}
